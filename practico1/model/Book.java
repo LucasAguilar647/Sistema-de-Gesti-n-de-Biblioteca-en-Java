@@ -42,4 +42,10 @@ public class Book {
     public int hashCode() {
         return isbn.hashCode();
     }
+
+    @Override
+    public String toString() {
+    return "Título: " + title + ", Autor: " + author + ", ISBN: " + isbn + ", Año: " + year + ", Disponible: " + available;
+    }
+
 }
